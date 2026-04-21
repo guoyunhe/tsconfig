@@ -1,5 +1,8 @@
 # @guoyunhe/tsconfig
 
+[![npm version](https://img.shields.io/npm/v/@guoyunhe/tsconfig)](https://www.npmjs.com/package/@guoyunhe/tsconfig)
+[![npm downloads](https://img.shields.io/npm/dm/@guoyunhe/tsconfig)](https://www.npmjs.com/package/@guoyunhe/tsconfig)
+
 TypeScript configuration presets.
 
 ## Node.js ESM
@@ -46,9 +49,8 @@ npm install --save-dev @guoyunhe/tsconfig
 | `esModuleInterop`   | `true`       | Allows default imports from CommonJS modules                    |
 | `skipLibCheck`      | `true`       | Skips type checking of declaration files                        |
 | `declaration`       | `true`       | Generates `.d.ts` declaration files                             |
-| `declarationMap`    | `true`       | Generates source maps for declaration files                     |
-| `sourceMap`         | `true`       | Generates source map files                                      |
+| `allowImportingTsExtensions` | `true` | Allows imports with `.ts` extensions                      |
 
 ## License
 
-MIT
+MPL-2.0
