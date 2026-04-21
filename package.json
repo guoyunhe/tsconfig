@@ -9,11 +9,21 @@
     "esm",
     "configuration"
   ],
+  "homepage": "https://github.com/guoyunhe/tsconfig#readme",
+  "bugs": {
+    "url": "https://github.com/guoyunhe/tsconfig/issues"
+  },
   "license": "MPL-2.0",
+  "author": {
+    "name": "Guo Yunhe",
+    "email": "i@guoyunhe.me",
+    "url": "https://guoyunhe.me"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/guoyunhe/tsconfig.git"
+    "url": "git+https://github.com/guoyunhe/tsconfig.git"
   },
+  "funding": "https://github.com/sponsors/guoyunhe",
   "files": [
     "node-esm.json",
     "README.md",
