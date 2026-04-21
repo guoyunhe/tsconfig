@@ -5,15 +5,15 @@
 
 TypeScript configuration presets.
 
-## Node.js ESM
-
-A modern TypeScript configuration for Node.js projects using ES modules (ESM).
-
-### Install
+## Install
 
 ```sh
 npm install --save-dev @guoyunhe/tsconfig
 ```
+
+## Node.js ESM
+
+A modern TypeScript configuration for Node.js projects using ES modules (ESM).
 
 ### Usage
 
@@ -54,12 +54,6 @@ npm install --save-dev @guoyunhe/tsconfig
 ## React
 
 A modern TypeScript configuration for React projects using ES modules (ESM) and a bundler like Vite or webpack.
-
-### Install
-
-```sh
-npm install --save-dev @guoyunhe/tsconfig
-```
 
 ### Usage
 
