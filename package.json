@@ -1,0 +1,13 @@
+{
+  "name": "@guoyunhe/tsconfig",
+  "version": "1.0.0",
+  "description": "TypeScript configuration presets",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guoyunhe/tsconfig.git"
+  },
+  "files": [
+    "node-esm.json"
+  ]
+}
