@@ -1,0 +1,22 @@
+{
+  "name": "@guoyunhe/tsconfig",
+  "version": "1.0.0",
+  "description": "TypeScript configuration presets",
+  "keywords": [
+    "typescript",
+    "tsconfig",
+    "node",
+    "esm",
+    "configuration"
+  ],
+  "license": "MPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guoyunhe/tsconfig.git"
+  },
+  "files": [
+    "node-esm.json",
+    "README.md",
+    "CHANGELOG.md"
+  ]
+}
