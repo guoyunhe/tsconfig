@@ -39,17 +39,17 @@ A modern TypeScript configuration for Node.js projects using ES modules (ESM).
 
 ### Options
 
-| Option              | Value        | Description                                                     |
-| ------------------- | ------------ | --------------------------------------------------------------- |
-| `lib`               | `["ES2022"]` | Includes ES2022 built-in APIs                                   |
-| `module`            | `NodeNext`   | Uses Node.js native ESM resolution with `.js` extension imports |
-| `moduleResolution`  | `NodeNext`   | Resolves modules using Node.js ESM algorithm                    |
-| `target`            | `ES2022`     | Compiles to ES2022 JavaScript                                   |
-| `strict`            | `true`       | Enables all strict type-checking options                        |
-| `esModuleInterop`   | `true`       | Allows default imports from CommonJS modules                    |
-| `skipLibCheck`      | `true`       | Skips type checking of declaration files                        |
-| `declaration`       | `true`       | Generates `.d.ts` declaration files                             |
-| `allowImportingTsExtensions` | `true` | Allows imports with `.ts` extensions                      |
+| Option                       | Value        | Description                                                     |
+| ---------------------------- | ------------ | --------------------------------------------------------------- |
+| `lib`                        | `["ES2022"]` | Includes ES2022 built-in APIs                                   |
+| `module`                     | `NodeNext`   | Uses Node.js native ESM resolution with `.js` extension imports |
+| `moduleResolution`           | `NodeNext`   | Resolves modules using Node.js ESM algorithm                    |
+| `target`                     | `ES2022`     | Compiles to ES2022 JavaScript                                   |
+| `strict`                     | `true`       | Enables all strict type-checking options                        |
+| `esModuleInterop`            | `true`       | Allows default imports from CommonJS modules                    |
+| `skipLibCheck`               | `true`       | Skips type checking of declaration files                        |
+| `declaration`                | `true`       | Generates `.d.ts` declaration files                             |
+| `allowImportingTsExtensions` | `true`       | Allows imports with `.ts` extensions                            |
 
 ## React
 
@@ -71,18 +71,18 @@ A modern TypeScript configuration for React projects using ES modules (ESM) and 
 
 ### Options
 
-| Option              | Value                          | Description                                                     |
-| ------------------- | ------------------------------ | --------------------------------------------------------------- |
-| `lib`               | `["ES2022", "DOM", "DOM.Iterable"]` | Includes ES2022 and browser built-in APIs                  |
-| `module`            | `ESNext`                       | Uses ESNext module format for bundlers                          |
-| `moduleResolution`  | `Bundler`                      | Resolves modules using bundler algorithm (Vite, webpack, etc.)  |
-| `target`            | `ES2022`                       | Compiles to ES2022 JavaScript                                   |
-| `jsx`               | `react-jsx`                    | Uses React 17+ automatic JSX transform                          |
-| `strict`            | `true`                         | Enables all strict type-checking options                        |
-| `esModuleInterop`   | `true`                         | Allows default imports from CommonJS modules                    |
-| `skipLibCheck`      | `true`                         | Skips type checking of declaration files                        |
-| `allowImportingTsExtensions` | `true`              | Allows imports with `.ts` and `.tsx` extensions                 |
-| `noEmit`            | `true`                         | Does not emit output files (bundler handles emission)           |
+| Option                       | Value                               | Description                                                    |
+| ---------------------------- | ----------------------------------- | -------------------------------------------------------------- |
+| `lib`                        | `["ES2022", "DOM", "DOM.Iterable"]` | Includes ES2022 and browser built-in APIs                      |
+| `module`                     | `ESNext`                            | Uses ESNext module format for bundlers                         |
+| `moduleResolution`           | `Bundler`                           | Resolves modules using bundler algorithm (Vite, webpack, etc.) |
+| `target`                     | `ES2022`                            | Compiles to ES2022 JavaScript                                  |
+| `jsx`                        | `react-jsx`                         | Uses React 17+ automatic JSX transform                         |
+| `strict`                     | `true`                              | Enables all strict type-checking options                       |
+| `esModuleInterop`            | `true`                              | Allows default imports from CommonJS modules                   |
+| `skipLibCheck`               | `true`                              | Skips type checking of declaration files                       |
+| `allowImportingTsExtensions` | `true`                              | Allows imports with `.ts` and `.tsx` extensions                |
+| `noEmit`                     | `true`                              | Does not emit output files (bundler handles emission)          |
 
 ## License
 

@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "TypeScript configuration presets",
   "keywords": [
-    "typescript",
-    "tsconfig",
-    "node",
+    "configuration",
     "esm",
-    "configuration"
+    "node",
+    "tsconfig",
+    "typescript"
   ],
   "homepage": "https://github.com/guoyunhe/tsconfig#readme",
   "bugs": {
@@ -29,5 +29,13 @@
     "react.json",
     "README.md",
     "CHANGELOG.md"
-  ]
+  ],
+  "type": "module",
+  "scripts": {
+    "format": "oxfmt ."
+  },
+  "devDependencies": {
+    "@guoyunhe/oxfmt-config": "^1.1.0",
+    "oxfmt": "^0.46.0"
+  }
 }
