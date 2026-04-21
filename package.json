@@ -26,6 +26,7 @@
   "funding": "https://github.com/sponsors/guoyunhe",
   "files": [
     "node-esm.json",
+    "react.json",
     "README.md",
     "CHANGELOG.md"
   ]
