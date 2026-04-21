@@ -8,6 +8,8 @@
     "url": "https://github.com/guoyunhe/tsconfig.git"
   },
   "files": [
-    "node-esm.json"
+    "node-esm.json",
+    "README.md",
+    "CHANGELOG.md"
   ]
 }
