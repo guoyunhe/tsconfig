@@ -1,0 +1,8 @@
+{
+  "editor.defaultFormatter": "oxc.oxc-vscode",
+  "editor.formatOnSave": true,
+  "editor.rulers": [100],
+  "[json]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  }
+}
